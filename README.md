@@ -1,3 +1,7 @@
+```bash
+> createdb humans
+```
+
 If you comment out this annotation (so Spring ignores the file)
 ```java
 // configurations/CustomRouteCORSConfig.java 
