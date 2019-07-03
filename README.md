@@ -22,7 +22,7 @@ fetch('http://localhost:8080/persons/custom')
 SDR routes will still work. E.g.
 
 ```js
-fetch('http://localhost:8080/persons/custom').then(res => res.json()).then(console.log)
+fetch('http://localhost:8080/persons/').then(res => res.json()).then(console.log)
 
 // {_embedded: {…}, _links: {…}, page: {…}}
 ```
